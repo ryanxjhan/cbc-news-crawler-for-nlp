@@ -9,7 +9,7 @@ import time
 
 def getlinks(keyword, num_of_news, output_path):
 
-    driver = webdriver.Chrome('/Users/hans/Downloads/chromedriver')
+    driver = webdriver.Chrome('/Users/ryan/Documents/GitHub/cbc-news-crawler-for-nlp/crawler/chromedriver')
     driver.get("https://www.cbc.ca/search?q={}&section=news&sortOrder=relevance".format(keyword))
     time.sleep(15)
     num = 1
