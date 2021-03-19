@@ -1,8 +1,8 @@
 from crawler import crawl
 from crawler import getlinks
 
-keywords = ['coronavirus']
-num_of_news = 9973
+keywords = ['asian']
+num_of_news = 5918
 links_path = 'links.txt'
 news_path = 'news.txt'
 
